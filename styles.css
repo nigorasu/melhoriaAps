@@ -1,0 +1,76 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0166B3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border: none; 
+    height: 2px;
+    background-color: #3b4344;
+    margin: 20px 0;
+  }
+
+  header h1 {
+    color: #0166B3;
+}
+
+.descricao strong {
+    color: #3b4344;
+}
+
+.container h2 {
+    color: #0166B3;
+}
+
+.icone {
+    color: #0166B3;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.campos {
+    color: #3b4344;
+}
+
+.campos h2 {
+    color: #0166B3;
+}
+
+.campos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.campos li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+
+    position: absolute;
+    top: 30px;
+    left: 820px;
+}
